@@ -1,0 +1,149 @@
+* {
+	margin: 0px;
+	padding: 0px;
+    font-family: sans-serif;
+
+}
+ ul {
+    list-style-type: none;
+    margin: 2px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #743a55;
+}
+
+li {
+    float: center;
+    font-family:fantasy;
+}
+
+.head li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration:none;
+    font-size: 250%;
+    font-family: fantasy;
+    box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 0.5);
+}
+
+
+body {
+	font-size: 120%;
+	background: #F8F8FF;
+     margin-bottom: 30px;
+    box-shadow: 10px 10px 5px grey;
+    padding-bottom: 30px;
+    display: block;
+    background-image: url("ren.jpg");
+    background-size: 1380px 1380px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.nav_menu li{
+    min-width: 50em;
+    float: left;
+    margin-right: 0.8em;
+    margin-left: 10px;
+    text-align: center;
+    
+}
+
+.nav_menu li a:link,
+.nav_menu li a:visited{
+    background-color:ghostwhite;
+    display: inherit;
+    padding: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0.2em 0 0.2em 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 0.5);
+}
+.nav_menu li a:hover{
+    background-color:coral;
+    -webkit-transform: scale(2,2);
+    -ms-transform:scale(2,2);
+}
+.nav_menu a {
+    display: block;
+    width : 415px;
+    
+    
+}
+.clear{
+    clear: both;
+}
+
+
+
+.header {
+	width: 35%;
+	margin: 50px auto 0px;
+	color: white;
+	background: yellowgreen;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+font-family: sans-serif;
+}
+form, .content {
+	width: 35%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+    background: spacegrey;
+}
+.input-group {
+	margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+.input-group input {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: yellowgreen;
+	border: none;
+	border-radius: 5px;
+}
+.btn li a:hover{
+     background-color:coral;
+    -webkit-transform: scale(2,2);
+    -ms-transform:scale(2,2);
+}
+.error {
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: left;
+}
+.success {
+	color: #3c763d; 
+	background: #dff0d8; 
+	border: 1px solid #3c763d;
+	margin-bottom: 20px;
+}
