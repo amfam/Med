@@ -52,8 +52,8 @@ function filterTable($query)
                 <tr>
                     
                     <th>Company Name</th>
-                    <th>Generic Name</th>
-                    <th>Price</th>
+                    <th>Address </th>
+                    <th>Phone</th>
                     
                 </tr>
 
